@@ -1,9 +1,10 @@
-export const PREFIX = 'pathfinder-v1.'; // +v1.1.1
+import { DataStorageItemGetter, DataStorageItemSetter } from '@kode-frontend/pathfinder-web-core/dist/types';
 
-export const setItem = (
-  key: string,
-  value?: string,
-  prefix: string = PREFIX,
+
+export const setItem:DataStorageItemSetter = (
+  key,
+  value,
+  prefix,
 ) => {
   if (typeof localStorage === 'undefined') {
     return;
@@ -15,9 +16,9 @@ export const setItem = (
   localStorage.setItem(`${prefix}-${key}`, value);
 };
 
-export const getItem = (key: string, prefix: string = PREFIX) => {
+export const getItem:DataStorageItemGetter = (key, prefix) => {
   if (typeof localStorage === 'undefined') {
-    return;
+    return '';
   }
-  return localStorage.getItem(`${prefix}-${key}`);
+  return localStorage.getItem(`${prefix}-${key}`) || '';
 };
