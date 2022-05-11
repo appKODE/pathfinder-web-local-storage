@@ -1,6 +1,6 @@
 
 
-## [1.0.0](https://https//github.com/appKODE/pathfinder-web-local-storage/compare/v0.1.0...v1.0.0) (2022-05-11)
+### [1.0.1](https://https//github.com/appKODE/pathfinder-web-local-storage/compare/v1.0.0...v1.0.1) (2022-05-11)## [1.0.0](https://https//github.com/appKODE/pathfinder-web-local-storage/compare/v0.1.0...v1.0.0) (2022-05-11)
 
 
 ### ⚠ BREAKING CHANGES
