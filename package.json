@@ -1,6 +1,6 @@
 {
   "name": "@kode-frontend/pathfinder-web-local-storage",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Local storage adapter for pathfinder web",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
