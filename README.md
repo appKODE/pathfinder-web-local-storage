@@ -23,9 +23,14 @@ yarn add @kode-frontend/pathfinder-web-local-storage
 
 Releases makes with release-it. 
 
-Local release
-- Generate your personal access-token with `api` scope.
-- run `$ GITLAB_TOKEN=your-personal-access-token yarn release-it`
+1. Local release
+   - Generate your personal access-token with `api` scope.
+   - run `$ GITLAB_TOKEN=your-personal-access-token yarn release-it`
+2. Build
+   - `$ npm run build`
+3. Publish to npm
+   - `$ npm publish --access public`
+
 
 
 ## TODO
