@@ -85,6 +85,6 @@
     "webpack-cli": "4.4.0"
   },
   "dependencies": {
-    "@kode-frontend/pathfinder-web-core": "^0.0.11"
+    "@kode-frontend/pathfinder-web-core": "^1.0.0"
   }
 }
